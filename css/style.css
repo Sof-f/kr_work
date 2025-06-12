@@ -495,3 +495,52 @@ h1,h2,h3,h4, p{
     justify-content: space-between;
     align-items: center;
 }
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+.container__footer{
+    padding: 70px 100px;
+}
+
+
+.footer_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
+}
+
+.footer__item-h4{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Work Sans", sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.footer__item-h2{
+    margin-bottom: 5px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+}
+
+.footer_content{
+    padding-right: 90px;
+}
+
+.footer__bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+    margin-top: 28px;
+}
+
+.footer__bottom-item{
+    font-family: "Work Sans", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
